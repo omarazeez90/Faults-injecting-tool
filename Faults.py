@@ -603,22 +603,22 @@ class FaultsInjectionSystem:
 
     # simulate darkness fault
     def darkness_fault(self, original_sample, error_type="Darkness", strength=1):
-    try:
-        if strength < 1:
-            strength = 1
-        elif strength > 5:
-            strength = 5
-        else:
-            strength = strength
-        weight = (1/strength) - 0.08
-        enhancer = ImageEnhance.Brightness(original_sample)
-        faulty_sample = enhancer.enhance(weight)
-        faulty_sample = Image.fromarray(cv2.cvtColor(np.asarray(faulty_sample), cv2.COLOR_BGR2RGB))
-    except Exception as error_log:
-        logging.exception(error_log)
-        print("Error occurred fault not applied")
-        faulty_sample = original_sample
-    return faulty_sample
+        try:
+            if strength < 1:
+                strength = 1
+            elif strength > 5:
+                strength = 5
+            else:
+                strength = strength
+            weight = (1/strength) - 0.08
+            enhancer = ImageEnhance.Brightness(original_sample)
+            faulty_sample = enhancer.enhance(weight)
+            faulty_sample = Image.fromarray(cv2.cvtColor(np.asarray(faulty_sample), cv2.COLOR_BGR2RGB))
+        except Exception as error_log:
+            logging.exception(error_log)
+            print("Error occurred fault not applied")
+            faulty_sample = original_sample
+        return faulty_sample
 
         # frame editing without overlaying
         # black no Bayer filter and no Demosaicing is one strength effect
