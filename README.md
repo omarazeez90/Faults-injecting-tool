@@ -7,8 +7,8 @@ The tool generate different RGB image from each image sample and saved it in a s
 -Add different implementation to fog without overlaying.<br>
 -Add blur area instead of blurring the whole image.<br>
 -Add shadow on the ground fault.<br>
--create better overlay fault samples.<br>
-simplify the code in later stage for more understanding.<br>
+-Create better overlay fault samples.<br>
+-Simplifying the code in later stage for more understanding.<br>
 
 # Description to the files 
 ### Fault.py
