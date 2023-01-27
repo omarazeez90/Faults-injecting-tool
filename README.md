@@ -1,6 +1,15 @@
 # fault injecting tools
 The tool generate different RGB image from each image sample and saved it in a specific path defined by the user.
 
+## To-Do:
+-Add snow effect that covers the ground.
+-Add different implementation to rain without overlaying.
+-Add different implementation to fog without overlaying.
+-Add blur area instead of blurring the whole image.
+-Add shadow on the ground fault.
+-create better overlay fault samples.
+simplify the code in later stage for more understanding.
+
 # Description to the files 
 ### Fault.py
 contain the fault class and the implementation of the faults methods.
