@@ -2,13 +2,13 @@
 The tool generate different RGB image from each image sample and saved it in a specific path defined by the user.
 
 ## To-Do:
--Add snow effect that covers the ground.
--Add different implementation to rain without overlaying.
--Add different implementation to fog without overlaying.
--Add blur area instead of blurring the whole image.
--Add shadow on the ground fault.
--create better overlay fault samples.
-simplify the code in later stage for more understanding.
+-Add snow effect that covers the ground.<br>
+-Add different implementation to rain without overlaying.<br>
+-Add different implementation to fog without overlaying.<br>
+-Add blur area instead of blurring the whole image.<br>
+-Add shadow on the ground fault.<br>
+-create better overlay fault samples.<br>
+simplify the code in later stage for more understanding.<br>
 
 # Description to the files 
 ### Fault.py
