@@ -1,4 +1,4 @@
-# fault injecting tools
+# fault injecting tool
 The tool generate different RGB image from each image sample and saved it in a specific path defined by the user.
 
 ## To-Do:
