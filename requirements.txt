@@ -1,0 +1,6 @@
+# Python version: 3.7.9
+PySimpleGUI==4.60.4
+Pillow==9.4.0
+opencv_python==4.8.0.74
+numpy==1.21.6
+splitfolders==0.5.1
