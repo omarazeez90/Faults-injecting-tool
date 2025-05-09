@@ -2,12 +2,12 @@
 The tool generate different RGB image from each image sample and saved it in a specific path defined by the user.
 
 # requirements.txt
--Python version: 3.7.9
--PySimpleGUI==4.60.4
--Pillow==9.4.0
--opencv_python==4.8.0.74
--numpy==1.21.6
--splitfolders==0.5.1
+-Python version: 3.7.9<br>
+-PySimpleGUI==4.60.4<br>
+-Pillow==9.4.0<br>
+-opencv_python==4.8.0.74<br>
+-numpy==1.21.6<br>
+-splitfolders==0.5.1<br>
 ## To-Do:
 -Add snow effect that covers the ground.<br>
 -Add different implementation to rain without overlaying.<br>
